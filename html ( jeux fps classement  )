@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Actualités Des Jeux Vidéo </title>
+			<link rel="stylesheet" type="text/css" href="script.css">
+</head>
+
+
+<body>
+
+<header> <p class="entete">Sites Des Actualités Jeux Vidéos </p> </header>
+
+<h1 id="result" >JACTUVIDÉOS</h1>
+
+
+     
+
+
+    		<!--accueil deroulant -->
+	<nav>
+			<ul>
+				<li id="Accueil"><a href="script.html">Accueil </a>
+					<ul class="sous">
+						<li><a>Bienvenue Sur notre Site de Jeux Vidéos:</a></li>
+						<li><a>Éleves de la Coding Factory en L1 TP</a></li>
+						<li><a><img src="coding.jpg"></a></li>
+						<li><a>Alexis et Tristan vous pésentes:</a></li>
+						<li><a>JACTUVIDÉOS</a></li>
+					
+					</ul>	
+				</li>
+
+				<li class="Sport"><a href="#">Jeux De Sports</a>
+					<ul class="sous"> 
+						<li  ><a href="Nsport.html" >Nouveautés </a></li>
+						<li><a href="Csport.html">Classements</a></li>
+					</ul>	
+				</li>	
+			
+
+				<li class="MondeOuvert"><a href="#">Jeux Monde Ouverts</a>
+					<ul class="sous">
+						<li ><a href="Nmonde.html" >Nouveautés </a></li>
+						<li><a href="Cmonde.html" >Classements</a></li>
+
+
+					</ul>	
+				</li>
+
+				<li class="FPS"><a href="#">Jeux FPS</a>
+					<ul class="sous">
+						<li ><a href="Nfps.html" >Nouveautés</a></li>
+						<li id="Sport" ><a>Classements</a></li>
+						
+					</ul>	
+				</li>
+
+		</ul>
+	</nav>
+
+	
+
+
+						<!--image nouveauté sport -->
+
+
+			<div class="slidesauto" id="image2" >
+
+			 
+				  <div class="mySlides fade">
+				  	 <div class="numbertext">Classement Jeux Monde Ouverts : TOP 1 </div>
+				    	<img src="mw3.jpg" style="width:90%" >
+				  	 <div class="text">Call Off Duty MW3</div>
+				  </div>
+
+				  <div class="mySlides fade">
+				  	 <div class="numbertext">  Classement Jeux Monde Ouverts : TOP 2 </div>
+				   		 <img src="csgo.jpg" style="width:100%">
+				  	 <div class="text">CSGO</div>
+				  </div>
+
+
+				  <div class="mySlides fade">
+				   	 <div class="numbertext">  Classement Jeux Monde Ouverts : TOP 3 </div>
+				    	<img src="fornite.jpg" style="width:100%">
+				     <div class="text">Fornite</div>
+				  </div>
+
+				  <div class="mySlides fade">
+				  	 <div class="numbertext"> 1/3  Classement Jeux Monde Ouverts : TOP 4 </div>
+				    	<img src="battlefield.jpg" style="width:90%" >
+				  	 <div class="text">Battlefield 3</div>
+				  </div>
+
+				  <div class="mySlides fade">
+				  	 <div class="numbertext"> 1/3  Classement Jeux Monde Ouverts : TOP 5 </div>
+				    	<img src="apex.jpg" style="width:90%" >
+				  	 <div class="text">Apex Legend</div>
+				  </div>
+
+			</div>
+
+
+
+				
+
+
+
+
+
+
+
+
+
+<script src="script2.js"></script>
+</body>
+
+
+</html>
