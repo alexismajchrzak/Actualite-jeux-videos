@@ -1,0 +1,101 @@
+           //questions du debut avant d'acceder au site 
+
+let langagesProg = ['league of legend','League of legend','League of Legend','league Of legend','League Of legend','LEAGUE OF LEGEND']; //tableau avecl les bonne reponse 
+
+let promptText = prompt('Que signifie le therme "LOL"?' );  //demamnde la réponse au client 
+console.log(promptText);
+if(langagesProg.indexOf(promptText) != -1)  {			   //si la reponse donné est dans le tableau donne une valeur dans ce cas bien joué sinn si different = dmg
+	alert('Bien Joué ! Bienvenue sur notre site');   
+ } else {                  								//sinon si !=-1
+ 	 alert('Rater Dommage :( ');                        
+ 	 alert('Bon allez on te laisse passer, Bienvenue sur notre site ! ')
+ }
+
+
+
+				//pour changer le titre avk le boutton 
+
+let button_titre = document.getElementById ('button_titre');    //declare une var qui prend la valeur button titre 
+let title_titre = document.getElementById ('title_titre');      
+let valeur_titre = document.getElementById('input_titre');
+
+window.addEventListener('click', buttonClickedTitre)        //regarde la page, si c'est boutton cliquez apelle la fonction buttonClickedTitre
+
+
+function buttonClickedTitre(event){             //création de la fonction buttonClickedTitre, event = représente tout événement qui a lieu dans le DOM
+
+    switch(event.target.value){            		 // swithc verifie l'evenement si le boutton est bien cliquer fait la fontion 
+
+        case 'titre':         			 	 //verifier le boutton titre 	
+
+            title_titre.innerHTML = valeur_titre.value          	//change la valeur insérer par le client 
+            localStorage.setItem("Val_Titre",valeur_titre.value);   //stock le titre inserer pour garder sur les autre pages (voir script2.js)
+            console.log(valeur_titre.value);               //console.log des titre inserer
+            break;            //arete 
+
+        default:            //si le boutton et pas cliquer ne fait rien 
+            break;
+
+    }
+}
+
+
+
+
+ const image2= document.getElementById("image2")          //prend les image du html 
+ const image= document.getElementById("image")
+ image2.style.display = "none";   						//n'affiche plus l' image2 
+
+let changer2 = document.getElementById('Sport')       //liens avk la categoriz sport dans le html 
+changer2.addEventListener('click',affiche2)		     //regarde si on click sur l'element de changer2 et lance affiche 2 
+								                          
+function affiche2(){								//initialisation de la fonction affiche 2 
+    image.style.display = "none";                  //desactive l'image 1  
+    image2.style.display = "inline";              //réactive l'image 2 
+}
+
+
+let changer1 = document.getElementById('Accueil')     // le contraire pour quand on appuye sur l'acceuil / 
+changer1.addEventListener('click',affiche1)
+function affiche1(){
+	
+    image2.style.display = "none";
+    image.style.display = "inline";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           /*
+
+
+                           /* pour le auto slide 
+let slideIndex = 0;                                          			     //declare var est la met  = 0 
+showSlides();   										   					//apelle la fonction qu'on apelle juste après 
+
+function showSlides() {													  //cree la fonctions apeller juste en haut 
+  let i;                 												 //declare un variable i 
+  let slides = document.getElementsByClassName("mySlides");             // apelle la class dans les html 
+  for (i = 0; i < slides.length; i++) {                                //on initialise la boucle 
+    slides[i].style.display = "none";      
+  }
+  slideIndex++;                                                      //
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000);                       / vitesse du slide 1000 = 1 seconde  
+}
+
+*/
+
+
