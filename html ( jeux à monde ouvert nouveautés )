@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Actualités Des Jeux Vidéo </title>
+			<link rel="stylesheet" type="text/css" href="script.css">
+</head>
+
+
+<body>
+
+<header> <p class="entete">Sites Des Actualités Jeux Vidéos </p> </header>
+
+<h1 id="result" >JACTUVIDÉOS</h1>
+
+
+         
+
+    		<!--accueil deroulant -->
+	<nav>
+			<ul>
+				<li id="Accueil"><a href="script.html">Accueil </a>
+					<ul class="sous">
+						<li><a>Bienvenue Sur notre Site de Jeux Vidéos:</a></li>
+						<li><a>Éleves de la Coding Factory en L1 TP</a></li>
+						<li><a><img src="coding.jpg"></a></li>
+						<li><a>Alexis et Tristan vous pésentes:</a></li>
+						<li><a>JACTUVIDÉOS</a></li>
+					
+					</ul>	
+				</li>
+
+				<li class="Sport"><a href="#">Jeux De Sports</a>
+					<ul class="sous"> 
+						<li><a href="Nsport.html" >Nouveautés </a></li>
+						<li><a href="Csport.html">Classements</a></li>
+					</ul>	
+				</li>	
+			
+
+				<li class="MondeOuvert"><a href="#">Jeux Monde Ouverts</a>
+					<ul class="sous">
+						<li id="Sport" ><a  >Nouveautés </a></li>
+						<li><a href="Cmonde.html" >Classements</a></li>
+
+
+					</ul>	
+				</li>
+
+				<li class="FPS"><a href="#">Jeux FPS</a>
+					<ul class="sous">
+						<li ><a href="Nfps.html" >Nouveautés</a></li>
+						<li><a href="Cfps.html" >Classements</a></li>
+						
+					</ul>	
+				</li>
+
+		</ul>
+	</nav>
+
+	
+
+
+						<!--image nouveauté sport -->
+
+
+			<div class="slidesauto" id="image2" >
+
+			 
+				  <div class="mySlides fade">
+				  	 <div class="numbertext"> Nouveauté Jeux Monde Ouverts : (1/5)</div>
+				    	<img src="watchdogs.jpg" style="width:90%" >
+				  	 <div class="text">Watch Dogs</div>
+				  </div>
+
+				  <div class="mySlides fade">
+				  	 <div class="numbertext"> Nouveauté Jeux Monde Ouverts : (2/5) </div>
+				   		 <img src="animalcrossing.jpg" style="width:100%">
+				  	 <div class="text">Animal Crossing New Horizons</div>
+				  </div>
+
+
+				  <div class="mySlides fade">
+				   	 <div class="numbertext"> Nouveauté Jeux Monde Ouverts : (3/5) </div>
+				    	<img src="crash.jpg" style="width:100%">
+				     <div class="text">Crash Bandicoot 4 </div>
+				  </div>
+
+
+				  <div class="mySlides fade">
+				   	 <div class="numbertext"> Nouveauté Jeux Monde Ouverts : (4/5) </div>
+				    	<img src="serioussam.jpg" style="width:100%">
+				     <div class="text">Serious Sam 4</div>
+				  </div>
+
+
+				  <div class="mySlides fade">
+				   	 <div class="numbertext"> Nouveauté Jeux Monde Ouverts : (5/5) </div>
+				    	<img src="mafia.jpg" style="width:100%">
+				     <div class="text">Mafia Definitive Édition</div>
+				  </div>
+
+			</div>
+
+
+
+				
+
+
+
+
+
+
+
+
+
+<script src="script2.js"></script>
+</body>
+
+
+</html>
