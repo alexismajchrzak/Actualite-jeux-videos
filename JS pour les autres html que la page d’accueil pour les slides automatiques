@@ -1,0 +1,45 @@
+
+                           /* pour le auto slide */ 
+let slideIndex = 0;                                                    //declare var est la met  = 0 
+showSlides();                                   //apelle la fonction qu'on apelle juste après 
+
+function showSlides() {                           //cree la fonctions apeller juste en haut 
+  let i;                                         //declare un variable i 
+  let slides = document.getElementsByClassName("mySlides");             // apelle la class dans les html 
+  for (i = 0; i < slides.length; i++) {                                //on initialise la boucle 
+  slides[i]. style.display = "none";                                   //affiche la slide i et cache les autres       
+  }
+  slideIndex++;                                                     //chaque tour le slide initialiser en haut prend +1
+  if (slideIndex > slides.length) {slideIndex = 1}                 //si slideindex > que la grandeurs du tableau remet au debut à slideIndex = 1 
+  slides[slideIndex -1].style.display = "block";                  //slides -1 pour revenir index=0 , affiche l'immage = à l'index 
+  console.log(slideIndex);
+  setTimeout(showSlides, 2000);                       /* vitesse du slide 1000 = 1 seconde */ 
+}
+
+
+
+
+
+
+let Valeur_Titre = localStorage.getItem("Val_Titre");      //va chercher dans le local storage le titre inserer et garde celui-ci      
+let result = document.getElementById("result");           //prend les titres des autres pages 
+
+result.innerHTML = Valeur_Titre                         //le titre est egales, au titre inserer si changé 
+
+
+
+
+
+// utiliser dans jeux de sport nouveaux 
+
+let jeux = ["Fifa","Overwatch","Call of Duty","League of Legend","Fortnite"];     // declare tableau 
+let text_jeux = "";                                                              //initilise une variable vide pour l'inastant 
+let text_jeux2 = document.getElementById("Jeux_boucle");                        //var qui fait le liens le html 
+
+console.log(jeux)             
+
+let i;                                           
+for (i =0; i < jeux.length; i++){                                          
+    text_jeux = text_jeux + jeux[i] + "</br>"                             //affiche chaque jeux en revenant a la ligne
+}
+text_jeux2.innerHTML = text_jeux;                                         //quand il finis la liste il affiche tout les jeux 
