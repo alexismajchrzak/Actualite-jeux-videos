@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Actualités Des Jeux Vidéo </title>
+			<link rel="stylesheet" type="text/css" href="script.css">
+</head>
+
+
+<body>
+
+<header> <p class="entete">Sites Des Actualités Jeux Vidéos </p> </header>
+
+<h1 id= title_titre>JACTUVIDÉOS</h1>
+
+
+            <!--boutton pour changer le titre -->
+	 <input id='input_titre'/>
+    <button id="button_titre" value='titre'>Choisir le titre</button>
+
+
+    		<!--accueil deroulant -->
+	<nav>
+			<ul>
+				<li id="Accueil"><a href="# ">Accueil </a>
+					<ul class="sous">
+						<li><a >Bienvenue Sur notre Site de Jeux Vidéos:</a></li>
+						<li><a >Coding Factory en L1 TP (cliquez dessus) </a></li>
+						<li><a>Alexis et Tristan vous pésentes:</a></li>
+						<li><a>JACTUVIDÉOS</a></li>
+					
+					</ul>	
+				</li>
+
+				<li class="Sport"><a href="#sport ">Jeux De Sports</a>
+					<ul class="sous"> 
+						<li ><a href="Nsport.html" >Nouveautés </a></li>
+						<li><a href="Csport.html" >Classements</a></li>
+					</ul>	
+				</li>	
+			
+
+				<li class="MondeOuvert"><a href="#mondeOuvert">Jeux Monde Ouverts</a>
+					<ul class="sous">
+						<li ><a href="Nmonde.html" >Nouveautés </a></li>
+						<li><a href="Cmonde.html" >Classements</a></li>
+
+
+					</ul>	
+				</li>
+
+				<li class="FPS"><a href="#">Jeux FPS</a>
+					<ul class="sous">
+						<li ><a href="Nfps.html" >Nouveautés</a></li>
+						<li><a href="Cfps.html" >Classements</a></li>
+					</ul>	
+				</li>
+
+		</ul>
+	</nav>
+
+							<!--image d'acceuil-->
+
+		<p id="image">
+			<img class="gaming1" src="gaming.jpg">
+		</p>
+
+
+					<!--image coding -->
+
+			<div class="slidesauto" id="image2" >
+			 
+				  <div class="mySlides fade">
+				  	 <div class="numbertext"></div>
+				    	<img src="coding.jpg" style="width:70%" >
+				  	 <div class="text">La Coding factory Paris </div>
+				  </div>
+			</div>
+
+			
+    <button id="Sport" value='titre'>image de la coding</button>
+			 
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
